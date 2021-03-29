@@ -8,10 +8,7 @@ body {
     font-family: 'Spartan', sans-serif;    
     background-image: url(./images/bg-pattern-top-mobile.svg),url(./images/bg-pattern-bottom-mobile.svg);
     background-position: top left -20%, bottom right -20%;
-    background-repeat: no-repeat;      
-    
-   
-    
+    background-repeat: no-repeat;
 }
 
 section {    
@@ -55,7 +52,6 @@ h1 {
     margin-bottom: 50px;
 }
 
-
 .container-bottom {    
     margin: 0 auto;
 }
@@ -64,7 +60,6 @@ h1 {
     width: 40px;
     float: left;
 }
-
 
 .name {
     color: hsl(0, 0%, 100%);
@@ -87,14 +82,12 @@ h1 {
     margin-top: 25px;
 }
 
-
-.card-left { 
-    
+.card-left {     
     background-color: hsl(300, 43%, 22%);
     border-radius: 10px;
-    padding: 40px 30px;
-    
+    padding: 40px 30px;    
 }
+
 .card-center { 
     background-color: hsl(300, 43%, 22%);
     border-radius: 10px;
@@ -102,14 +95,12 @@ h1 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .card-right { 
     background-color: hsl(300, 43%, 22%);
     border-radius: 10px;
-    padding: 40px 30px;    
-    
+    padding: 40px 30px;        
 }
-
-
 
 .attribution {
     background-color: hsl(300, 43%, 22%);
@@ -124,15 +115,13 @@ h1 {
     width: 100%;
     z-index: 3;
 }  
+
 .attribution a {
     color: hsl(333, 80%, 67%);
     text-decoration: none;
     padding-left: 2px;
-    padding-right: 2px;
-    
+    padding-right: 2px;    
 }
-
-
 
 
 
@@ -145,64 +134,61 @@ body {
     background-repeat: no-repeat;      
 }
 
-
 .top-left {
     height: 310px;
     float:left;
     text-align: left;
     max-width: 460px;
 }
+    
 section {    
     width: 80%;    
     margin: 40px auto;
     margin-top: 100px;
 }
+    
 h1 {
     font-size: 46px;
     line-height: 50px;    
 }
+    
 .top-left p{    
     padding-top: 12px;
 }
-
-
 
 .top-right {
     padding-top: 0px;      
     height:250px;
     width:480px;
     position: absolute;    
-    right: 130px;
-    
+    right: 130px;    
 }
+    
 .top-right p {
     display: inline;
-    
-    
 }
+    
 .rated-1 {
     padding: 12px 15px;
     border-radius: 10px;
-    background-color: hsl(304, 100%, 97%);
+    background-color: hsl(300, 33%, 97%);
     text-align: right; 
     width: 380px;   
-    margin-top: 30px;
-
-    
-}
+    margin-top: 30px;    
+}    
 .rated-2 {
     padding: 12px 15px;
     border-radius: 10px;
-    background-color: hsl(304, 100%, 97%);
+    background-color: hsl(300, 33%, 97%);
     text-align: right;
     width: 415px;
     margin-left: 30px;
     margin-top: 30px;
-}
+}    
 .rated-3 {
     padding: 12px 15px;
     border-radius: 10px;
-    background-color: hsl(304, 100%, 97%);
+    background-color: hsl(300, 33%, 97%);
     text-align: right;
     width: 385px;
     margin-left: 90px;
@@ -220,11 +206,10 @@ h1 {
     
     margin-left: 30px;
 }
+    
 .container-bottom {
     clear: both;
 }
-
-
 
 .card-left {
     width: 330px;
@@ -247,10 +232,7 @@ h1 {
     margin: 0px 0px;
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    
-       
+    width: 100%; 
 }
-
 
 }
